@@ -14,6 +14,7 @@ int main(){
     int size = sizeof(arr)/sizeof(arr[0]);
     reverseArray(arr, size);
     // print array
+    
     for (int i = 0; i < size; i++) {
         cout << arr[i] << " ";
     }
