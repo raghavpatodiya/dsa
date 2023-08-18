@@ -12,7 +12,7 @@ public:
         unordered_map<char, int> lastIndex;   // key, value   
         for (int end = 0; end < n; ++end) {
             if (lastIndex.find(s[end]) != lastIndex.end()) {
-                // If the current character is already in the substring, update the start
+                // If the current character is already in the substring, update the start !
                 // to the next index after the last occurrence of this character.
                 start = max(start, lastIndex[s[end]] + 1);
             }          
