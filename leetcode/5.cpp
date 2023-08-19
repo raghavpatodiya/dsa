@@ -20,6 +20,7 @@ public:
                         dp[i][j] = dp[i+1][j-1]+2; 
                     }
                 }
+                // checking
                 if(dp[i][j]){
                     if(j-i+1>maxLength){
                         maxLength=j-i+1;
